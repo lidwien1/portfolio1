@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="opmaak.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home.html"> Home </a></li>
+                <li><a href="lidwien.html"> CMD opdrachten </a></li>
+                <li><a href="CMD.html"> Externe opdrachten </a></li>
+                <li><a href="opdrachten.html"> Ontwikkeling </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
+            
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <h1>Contact</h1>
+    <form>
+        <fieldset>
+            <legend> Uw informatie </legend>
+            <label for="name">Naam</label>
+            <input type="text" name="username">
+
+            <label for="email"> E-mail</label>
+            <input type="text" placeholder="voorbeeld@hotmail.com" name="email" required>
+        </fieldset>
+
+        <fieldset>
+            <legend> Uw bericht </legend>
+            <label for="subject"> Onderwerp</label>
+            <input type="text" name="subject">
+            <label for="comments"> Bericht</label>
+            <input class="bericht" type="text" placeholder="Maximaal 200 tekens" name="comments" required>
+        </fieldset>
+
+        <p>Ontvang een e-mail als er iets nieuws is geplaatst</p>
+        <input type="checkbox" name="ontvang">
+
+        <button class="versturen"> Verstuur </button>
+    </form>
+
+<script src="menu.js"></script>
+</body>
+
+</html>
